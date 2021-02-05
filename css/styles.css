@@ -1,0 +1,70 @@
+.profilePic{
+        width: 204px;
+    height: 204px;
+    border-radius: 100px;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+body{
+      font-family: 'Montserrat', sans-serif;
+    background-color: #9e4141;
+    color: white;
+}
+
+.first_card{
+    margin-inline: auto;
+    background-color: #2b2c35;
+    width: 50%;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: center;
+    margin: 100px auto;
+}
+.socials{
+  padding: 15px;
+}
+.fi{
+  padding: 8px;
+}
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 28px auto;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+ .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;}
+  .btn:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+    color: #fff;
+    outline: 0;
+  }
+
